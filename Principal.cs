@@ -4,6 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//llamada de clases externas que incluyen las funciones
+using static Semana3_ejemplo_de_menu_en_consola.Ejemplo_if;
+using static Semana3_ejemplo_de_menu_en_consola.Ejemplo_switch;
+using static Semana3_ejemplo_de_menu_en_consola.Ejemplo_for;
+using static Semana3_ejemplo_de_menu_en_consola.Ejemplo_while;
+using static Semana3_ejemplo_de_menu_en_consola.Ejemplo_dowhile;
+
 namespace Semana3_ejemplo_de_menu_en_consola
 {
     class Principal
@@ -36,7 +43,6 @@ namespace Semana3_ejemplo_de_menu_en_consola
         //Inicio de funciones interna
         static void menu_interno()
         {
-
             string opcion;
             int opcionint;
 
@@ -51,12 +57,14 @@ namespace Semana3_ejemplo_de_menu_en_consola
             opcion = Console.ReadLine();
             opcionint = Int32.Parse(opcion);
 
-
             switch (opcionint)
             {
                 case 1:
-                    //Ejemplo para llamar archivo
-                    programa_if();
+                    //Ejemplo para llamar clase externa
+                    programaif();
+
+                    //llamada función interna
+                    //programa_if();
                     break;
 
                 case 2:

@@ -49,7 +49,7 @@
     <Compile Include="Ejemplo_dowhile.cs" />
     <Compile Include="Ejemplo_for.cs" />
     <Compile Include="Ejemplo_if.cs" />
-    <Compile Include="Ejemplo_Switch.cs" />
+    <Compile Include="Ejemplo_switch.cs" />
     <Compile Include="Ejemplo_while.cs" />
     <Compile Include="menu.cs" />
     <Compile Include="Principal.cs" />

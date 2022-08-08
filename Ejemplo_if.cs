@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Semana3_ejemplo_de_menu_en_consola
 {
-    class Ejemplo_if
+    public class Ejemplo_if
     {
-
-        static void Main(string[] args)
+        public static void estructura_if()
         {
-            System.Console.WriteLine("Aqui llamo ejemplo If externo");
+            System.Console.WriteLine("If externo");
         }
     }
-    }
+}

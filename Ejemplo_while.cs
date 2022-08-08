@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Semana3_ejemplo_de_menu_en_consola
 {
-    class Ejemplo_while
+    public class Ejemplo_while
     {
+        public static void estructura_while()
+        {
+            System.Console.WriteLine("While externo");
+        }
     }
 }
